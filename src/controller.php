@@ -12,13 +12,21 @@
  *
  * function is responsible for GET method with url /user/profile
  *
- * //todo add / url support
+ * function main($GET) {
+ *      return "gradle-please.html";
+ * }
+ *
+ * GET '/' request
  * */
 
 class Controller {
 
     function any_function_name($GET, $user, $profile)
     {
-        return "hello.html";
+        return "gradle-please.html";
+    }
+
+    function main($GET) {
+        return "gradle-please.html";
     }
 }
